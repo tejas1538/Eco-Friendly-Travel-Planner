@@ -1,0 +1,103 @@
+/* styles/TripForm.css */
+.trip-form {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(46, 204, 113, 0.1);
+}
+
+.form-step h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  color: var(--dark-text);
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  color: var(--dark-text);
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+select:focus {
+  border-color: var(--primary-green);
+  outline: none;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--light-sage);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkbox-label:hover {
+  background: #e0ebe7;
+}
+
+.form-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background-color: var(--primary-green);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--secondary-green);
+}
+
+.next-btn,
+.back-btn,
+.submit-btn {
+  margin-top: 1rem;
+}
+
+.back-btn {
+  background-color: var(--earth-brown);
+}
+
+.back-btn:hover {
+  background-color: #7a6347;
+}
