@@ -1,21 +1,18 @@
-# 🧭 AI Trip Planner
+# 🧭 Eco-Friendly Travel Planner
 
-An intelligent travel planning web application that helps users effortlessly create personalized itineraries using AI.
+An intelligent travel planning web application that helps users effortlessly create personalized eco-friendly low carbon itineraries using AI.
 
-## ✨ Overview
+## ✨ Objective
 
-Planning a trip can be overwhelming — from finding attractions to optimizing your time. *AI Trip Planner* solves this by generating custom travel itineraries based on user input such as destination, duration, and interests. With a clean user interface and AI-powered backend, the app simplifies the entire process of planning a trip.
+To design a digital travel planner that promotes sustainable tourism by helping users plan environmentally responsible trips. The planner aims to reduce carbon footprints, support local communities, and encourage eco-conscious decisions in transport, accommodation, and activities.
 
 ## 🧠 Problem It Solves
 
-- Manual trip planning is time-consuming and inefficient.
-- Users often don't know where to start when researching destinations.
-- Balancing time, interests, and locations is difficult without local knowledge.
-- Existing tools require jumping between multiple apps (maps, blogs, guides).
-
-*This project provides an all-in-one smart solution* that leverages AI to create personalized, efficient, and enjoyable travel itineraries.
-
----
+1. High carbon emissions from tourism
+2. Lack of awareness about sustainable accommodation
+3. Difficulty finding responsible local experiences
+4. Excessive waste and plastic usage
+5. Poor access to green travel resources
 
 ## 🛠 Tech Stack
 
